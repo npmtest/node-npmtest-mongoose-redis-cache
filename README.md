@@ -1,6 +1,6 @@
 # npmtest-mongoose-redis-cache
 
-#### test coverage for  [mongoose-redis-cache (v0.0.3)](https://github.com/conancat/mongoose-redis-cache#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-mongoose-redis-cache.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-mongoose-redis-cache) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-mongoose-redis-cache.svg)](https://travis-ci.org/npmtest/node-npmtest-mongoose-redis-cache)
+#### basic test coverage for  [mongoose-redis-cache (v0.0.3)](https://github.com/conancat/mongoose-redis-cache#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-mongoose-redis-cache.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-mongoose-redis-cache) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-mongoose-redis-cache.svg)](https://travis-ci.org/npmtest/node-npmtest-mongoose-redis-cache)
 
 #### Plugin to cache Mongoose MongoDB query results in Redis
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-mongoose-redis-cache/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-mongoose-redis-cache/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-mongoose-redis-cache/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-mongoose-redis-cache/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-mongoose-redis-cache/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-mongoose-redis-cache/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-mongoose-redis-cache/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-mongoose-redis-cache/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-mongoose-redis-cache/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-mongoose-redis-cache/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-mongoose-redis-cache/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-mongoose-redis-cache/build/coverage.html/index.html)
 
@@ -81,7 +81,8 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
     },
-    "version": "0.0.3"
+    "version": "0.0.3",
+    "bin": {}
 }
 ```
 
